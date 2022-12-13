@@ -16,7 +16,7 @@
   margin: 26px auto;
 }
 .image-as-background{
-  background-image: url('../img/pexels-creative-vix-9754.jpg');
+  background-image: url('./img/pexels-creative-vix-9754.jpg');
   background-size:cover;
 }
 .testimonial{
