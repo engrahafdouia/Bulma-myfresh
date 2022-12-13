@@ -1,0 +1,237 @@
+.has-costum-border::after{
+    content: "";
+  display: block;
+  width: 20%;
+  /* border-bottom: solid 2px #6384FF; */
+  height: 2px;
+  background: rgb(99, 132, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 132, 255, 1) 0%,
+    rgba(99, 132, 255, 1) 88%,
+    rgba(255, 255, 255, 1) 88%,
+    rgba(255, 255, 255, 1) 91%,
+    rgba(99, 132, 255, 1) 91% );
+  margin-top: 30px;
+  margin: 26px auto;
+}
+.image-as-background{
+  background-image: url('../img/pexels-creative-vix-9754.jpg');
+  background-size:cover;
+}
+.testimonial{
+  position: relative;
+  z-index:2
+}
+.testimonial-card{
+  position: relative;
+  /* overflow: hidden; */
+  margin: 10px auto;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-image: url('../img/SeekPng.com_quotation-marks-png_739752.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 10px 28px;
+}
+blockquote{
+  line-height: 25px;
+}
+blockquote:before{
+  font-family: "Material Icons";
+  /* content:url('../img/bg-pattern-quotation.svg'); */
+  width: 100px;
+  height: 2px;
+  position:absolute;
+  color: grey;
+  top:2%;
+  left: 4%;
+}
+.image{
+  position: relative;
+}
+.image img {
+  max-width: 100%;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: block;
+  z-index: 1;
+  right: 70%;
+  position: absolute;
+    top: 56px;
+    z-index: 1;
+}
+.testimonial .author h5 {
+  text-transform: capitalize;
+  bottom: 60%;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #444f60;
+}
+.testimonial-card .author-job {
+  font-size: .8em;
+  color: #fff;
+  top: 50%;
+}
+/* .client-item{
+  position: absolute;
+ left:2px;
+ width:40px
+} */
+/* .image.img-client {
+  width: 76px;
+  position: absolute;
+  left: 8%;
+  top: 86%;
+} */
+.content-author{
+  margin: 0;
+  height: 80px;
+  display: block;
+  text-align: left;
+  color: #fff;
+  padding: 0 35px;
+  position: relative;
+  z-index: 0;
+  left: 28%;
+  top: 70px;
+}
+.author-job{
+}
+.testimonial-author{
+  margin-top: -60px;
+}
+.price{
+  position: relative;
+}
+.price::before{
+  content: '$';
+  /* width: 100px; */
+  height: 2px;
+  position: absolute;
+  /* background-color: brown; */
+  top: -2px;
+  left: 38%;
+  top: -11%;
+  width: 14px;
+}
+.price::before{
+  content: '$';
+  /* width: 100px; */
+  height: 2px;
+  position: absolute;
+  /* background-color: brown; */
+  top: -2px;
+  left: 38%;
+  top: 0;
+  width: 5px;
+  font-size: 17px;
+}
+ul{
+  list-style: none;
+}
+li{
+  padding: 10px 0 10px 0;
+  color:slategray
+}
+a{
+  color: slategray
+}
+a:hover{
+color: white;
+}
+.has-background-steelblue{
+  background-color:#444F60
+}
+.social-website i{
+color:orange;
+padding-left:10px;
+font-size: 18px;
+/* margin-left: 6px; */
+}
+.social-website i:hover{
+  color:wheat
+}
+.card-icon{
+  border: 1px solid slategray;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 67px;
+    transition: transform 1s;
+} 
+.card-icon i{
+font-size: 25px;
+}
+.card-icon:hover{
+  color:orange;
+  transform: translateY(-20%);
+}
+  .field{
+width:500px
+  }
+  .textarea{
+    width:100%
+  }
+  ::placeholder{
+    font-size: 18px;
+  }
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  padding: .5px;
+  border-radius: 8px;
+  justify-content: center;
+  background: #F49619;
+  color: white;
+  border:none;
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 99;
+  scroll-behavior: smooth;
+}
+
+.typing-element{
+  width: 22ch;
+  animation: typing 2s steps(22)infinite, blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: Montserrat, sans-serif;
+  font-size: 37px;
+  height: 63px;
+}
+.typing-element{
+  font-weight: 800;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+  /* 100%{
+      left: 0;
+      margin:0 -35px 0 35px;
+     
+  } */
+}
